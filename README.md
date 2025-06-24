@@ -25,9 +25,10 @@ A telecom company aims to understand:
 
 🔄 Data Preparation (ETL)
 
-- •	Power Query: Used to clean and transform raw tables.
-- •	VLOOKUP: Merged customer demographic data into the call data using Customer ID.
-- •	Calculated Columns:
+- 	Power Query: Used to clean and transform raw tables.
+- 	VLOOKUP: Merged customer demographic data into the call data using Customer ID.
+- 	<<Calculated Column>>:
+- 	
  o	Financial Year from Date of Call
  o	Day of Week from Date of Call
  o	Duration List (Short, Medium, Long)
