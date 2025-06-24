@@ -17,16 +17,17 @@ a. Microsoft Excel
 🧠 Business Understanding
 A telecom company aims to understand:
 
-- •	How customers interact with their support center
-- •	Which representatives bring the most revenue
-- •	Who their top customers are
-- •	When the call center is most busy
-- •	Whether satisfaction ratings correlate with call duration
+- How customers interact with their support center
+- Which representatives bring the most revenue
+- Who their top customers are
+- When the call center is most busy
+- Whether satisfaction ratings correlate with call duration
 
 🔄 Data Preparation (ETL)
-•	Power Query: Used to clean and transform raw tables.
-•	VLOOKUP: Merged customer demographic data into the call data using Customer ID.
-•	Calculated Columns:
+
+- •	Power Query: Used to clean and transform raw tables.
+- •	VLOOKUP: Merged customer demographic data into the call data using Customer ID.
+- •	Calculated Columns:
  o	Financial Year from Date of Call
  o	Day of Week from Date of Call
  o	Duration List (Short, Medium, Long)
